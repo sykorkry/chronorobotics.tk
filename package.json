@@ -1,0 +1,23 @@
+{
+  "name": "chronorobotics.tk",
+  "version": "1.0.0",
+  "description": "*Faculty of Electrical Engineering, Czech Technical University in Prague*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sykorkry/chronorobotics.tk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sykorkry/chronorobotics.tk/issues"
+  },
+  "homepage": "https://github.com/sykorkry/chronorobotics.tk#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
