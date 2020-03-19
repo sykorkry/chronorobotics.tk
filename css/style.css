@@ -267,11 +267,8 @@ button:focus {
     font-weight: 500;
     font-size: 12px; }
 
-.orange-panel {
-  background-color: #ec9d5f;
-  color: #fff; }
-  .orange-panel p {
-    font-weight: bold !important; }
+.orange-panel p {
+  font-weight: bold !important; }
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -283,7 +280,7 @@ button:focus {
   .home_banner_area .banner_inner {
     overflow: hidden;
     width: 100%;
-    padding: 225px 0px; }
+    padding: 80px 0px; }
     .home_banner_area .banner_inner .banner_content {
       color: #fff; }
       .home_banner_area .banner_inner .banner_content h2 {
@@ -301,7 +298,8 @@ button:focus {
         margin-bottom: 35px;
         opacity: .6; }
       .home_banner_area .banner_inner .banner_content .banner_map_img {
-        text-align: right; }
+        text-align: center;
+        color: red; }
 
 .blog_banner {
   min-height: 780px;

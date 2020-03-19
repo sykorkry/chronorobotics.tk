@@ -6,7 +6,8 @@
 	.banner_inner{
 		overflow: hidden;
 		width: 100%;
-		padding: 225px 0px;
+		//padding: 225px 0px;
+		padding: 80px 0px;
 		.banner_content{
 			color: #fff;
 			h2{
@@ -26,14 +27,19 @@
 				opacity: .6;
 			}
 			.banner_map_img{
-				text-align: right;
+				text-align: center;
+				color: red;
+			}
+			.banner_map_img img {
+				//width: 520px;
+				//height: 315px;
 			}
 			.banner_btn{
-				
+
 			}
 		}
-	}	
-	
+	}
+
 }
 
 .blog_banner{
@@ -44,7 +50,7 @@
 	margin-bottom: 0px;
 	.banner_inner{
 		background: #04091e;
-		position: relative; 
+		position: relative;
 		overflow: hidden;
 		width: 100%;
 		min-height: 780px;
@@ -127,7 +133,7 @@
 					text-transform: uppercase;
 					&:before{
 						content: "\f0da";
-						font: normal normal normal 14px/1 FontAwesome; 
+						font: normal normal normal 14px/1 FontAwesome;
 						position: absolute;
 						right: -25px;
 						top: 50%;
@@ -137,7 +143,7 @@
 						margin-right: 0px;
 						&:before{
 							display: none;
-						}	
+						}
 					}
 				}
 			}
